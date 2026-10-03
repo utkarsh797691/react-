@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex: wrap;
+}
+.card{
+  width: 200px;
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #39bba9;
+}

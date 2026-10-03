@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.parent {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.center {
+  margin-top: 25px;
+}
+
+.center h3 {
+  font-size: 16px;
+}
+
+.center h3 span {
+  color: gray;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.center h2 {
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.center > div {
+  display: flex;
+  gap: 10px;
+}
+
+.center h4 {
+  background-color: #f1f1f1;
+  padding: 7px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.bottom {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom h3 {
+  font-size: 20px;
+}
+
+.bottom p {
+  color: gray;
+  margin-top: 5px;
+}
+
+.bottom button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bottom button:hover {
+  background-color: #333;
+}
