@@ -8,7 +8,7 @@ App = () => {
   }
   return (
     <div>
-      <button onClick={btnClicked}>Click Here</button>
+      <button onMouseEnter={btnClicked} onClick={btnClicked}>Click Here</button>
     </div>
   )
 }
