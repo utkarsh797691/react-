@@ -8,7 +8,10 @@ App = () => {
   }
   return (
     <div>
-      <input onChange={inputChange} type="text" placeholder='Enter Name'/>
+      <input onChange={function(elem){
+        console.log(elem.target.value);
+        
+      }} type="text" placeholder='Enter Name'/>
     </div>
   )
 }
