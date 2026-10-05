@@ -5,5 +5,4 @@ const App = () => {
     <div>i can do any thing</div>
   )
 }
-
 export default App
