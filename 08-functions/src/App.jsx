@@ -8,7 +8,7 @@ App = () => {
   }
   return (
     <div>
-      <button onMouseEnter={btnClicked} onClick={btnClicked}>Click Here</button>
+      <input type="text" placeholder='Enter Name'/>
     </div>
   )
 }
