@@ -36,7 +36,7 @@ const App = () => {
         submitHandler(e)
       }} className='flex gap-4 lg:w-1/2 p-10 flex-col items-start'>
 
-        <h1 className='text-4xl mb-2 font-bold'>Add Notes</h1>
+        <h1 className='text-4xl mb-2 font-bold'>Notes</h1>
 
         {/* PEHLA INPUT FOR HEADING */}
         <input
